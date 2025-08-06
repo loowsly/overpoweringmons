@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "overpowering_mons",
+  "version": "${version}",
+  "name": "Overpowering Mons",
+  "description": "Customize max values for EVs and IVs in Cobblemon - Make your Pokemon truly overpowered!",
+  "authors": [
+    "OverpoweringMons Team"
+  ],
+  "license": "MIT License",
+  "icon": "assets/overpowering_mons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.overpoweringmons.fabric.OverpoweringMonsMod"
+    ],
+    "modmenu": [
+      "com.overpoweringmons.fabric.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "overpowering_mons.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.21.1",
+    "cobblemon": ">=1.6.0",
+    "fabric-language-kotlin": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

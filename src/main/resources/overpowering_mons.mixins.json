@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.overpoweringmons.fabric.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "overpowering_mons.refmap.json",
+  "mixins": [
+    "EVsMixin",
+    "IVsMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
